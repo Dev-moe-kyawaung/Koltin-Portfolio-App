@@ -17,11 +17,11 @@ A professional Android portfolio app built with **Kotlin**, **Jetpack Compose**,
 
 ## 📁 Project Structure
 
-moe-kyaw-aung-portfolio/
-├── androidApp/      # Main Android app
-├── backend/         # Ktor API server
-├── shared/          # KMP shared code
-└── ...
+    moe-kyaw-aung-portfolio/
+     ├── androidApp/      # Main Android app
+     ├── backend/         # Ktor API server
+     ├── shared/          # KMP shared code
+     └── 
 
 
 ## 🛠️ Tech Stack
