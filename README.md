@@ -60,7 +60,7 @@ A professional Android portfolio app built with **Kotlin**, **Jetpack Compose**,
 
 ```bash
 # Clone repository
-git clone https://github.com/moejaw-aung/portfolio.git
+git clone https://github.com/moekyaw-aung/portfolio.git
 
 # Build Android app
 ./gradlew :androidApp:assembleDebug
@@ -70,3 +70,22 @@ git clone https://github.com/moejaw-aung/portfolio.git
 
 # Install on device
 ./gradlew :androidApp:installDebug
+# 1. Clone the project
+git clone https://github.com/moejaw-aung/portfolio.git
+
+# 2. Update your profile image
+# Replace: androidApp/src/main/res/mipmap-hdpi/ic_launcher.png
+
+# 3. Add your real projects
+# Update: androidApp/src/main/kotlin/.../data/repository/PortfolioRepository.kt
+
+# 4. Build APK
+./gradlew :androidApp:assembleRelease
+
+# 5. Deploy backend
+./gradlew :backend:run
+
+# 6. Update GitHub
+git add .
+git commit -m "Update portfolio with Moe Kyaw Aung info"
+git push origin main
