@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moe Kyaw Aung - Portfolio</string>
+    <string name="developer_name">Moe Kyaw Aung</string>
+    <string name="developer_title">Senior Android Developer</string>
+    <string name="developer_tagline">Crafting high-performance Android experiences with Kotlin, Jetpack Compose, and clean architecture</string>
+    <string name="years_experience">8+ years</string>
+    <string name="apps_on_play_store">15+ Apps</string>
+    <string name="users_reached">200K+ Users</string>
+    <string name="happy_clients">10+ Clients</string>
+    <string name="certifications">40+ Certified</string>
+    <string name="location">Tachileik, Shan State, Myanmar</string>
+    <string name="available_for_hire">Available for freelance, contract, or full-time Android roles</string>
+    
+    <string name="contact_email">moe.kyaw.aung@email.com</string>
+    <string name="github_url">https://github.com/moekyaw-aung</string>
+    <string name="linkedin_url">https://linkedin.com/in/moekyaw-aung</string>
+    <string name="portfolio_url">https://moekyaw-aung.github.io</string>
+</resources>
