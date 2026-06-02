@@ -1,0 +1,22 @@
+data class HomeUiState(
+    val profileImage: String? = "https://github.com/moekyaw-aung.png",
+    val name: String = "Moe Kyaw Aung",
+    val title: String = "Senior Android Developer",
+    val yearsExperience: Int = 8,
+    val projectsCompleted: Int = 15,
+    val githubContributions: Int = 200,
+    val usersReached: Int = 200000,
+    val happyClients: Int = 10,
+    val certifications: Int = 40,
+    val location: String = "Tachileik, Shan State, Myanmar",
+    val email: String = "moe.kyaw.aung@email.com",
+    val githubUrl: String = "https://github.com/moekyaw-aung",
+    val linkedinUrl: String = "https://linkedin.com/in/moekyaw-aung",
+    val portfolioUrl: String = "https://moekyaw-aung.github.io",
+    val isAvailableForHire: Boolean = true,
+    val featuredProjects: List<Project> = emptyList(),
+    val topSkills: List<Skill> = emptyList(),
+    val recentExperience: Experience? = null,
+    val isLoading: Boolean = true,
+    val error: String? = null
+)
